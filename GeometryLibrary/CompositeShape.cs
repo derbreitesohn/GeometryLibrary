@@ -11,6 +11,24 @@ public class CompositeShape
     // A method named SurfaceArea() that calculates the total surface area of all objects inside the CompositeShape 
     // A method name Volume() that calculates the total volume of all objects inside 
     // A constructor CompositeShape(int n) that initializes it with n random shapes
+    public IsShapePart()
+    {
+        
+    }
+    public Volume()
+    {
+        
+    }
+
+    public SurfaceArea()
+    {
+        
+    }
+
+    public CompositeShape()
+    {
+        
+    }
 
     // Constructor
 }
