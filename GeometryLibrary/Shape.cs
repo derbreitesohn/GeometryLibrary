@@ -26,7 +26,6 @@ namespace GeometryLibrary
             }
             return new Vertex { X = sumX / vertices.Length, Y = sumY / vertices.Length, Z = sumZ / vertices.Length };
         }
-
         public int CompareTo(Shape other)
         {
             if (other == null) return 1; 
@@ -36,8 +35,8 @@ namespace GeometryLibrary
         public static CompositeShape operator +(Shape a, Shape b)
         {
             CompositeShape composite = new CompositeShape(0); 
-            
-            
+            composite.AddShape(a);
+            composite.AddShape(b);
             return composite;
         }
     }

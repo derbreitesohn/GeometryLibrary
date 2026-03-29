@@ -62,6 +62,5 @@ public class Cuboid : Shape
         }
         return true;
     }
-
     public static bool operator !=(Cuboid left, Cuboid right) => !(left == right);
 }

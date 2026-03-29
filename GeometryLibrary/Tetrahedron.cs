@@ -1,11 +1,9 @@
 using System;
-
 namespace GeometryLibrary.Shape
 {
     public class Tetrahedron : Shape
     {
         private static  Random random = new Random();
-
         public Tetrahedron() : base(4)
         {
             for (int i = 0; i < 4; i++)
@@ -32,7 +30,6 @@ namespace GeometryLibrary.Shape
         {
             return 0; 
         }
-
         // Calculates the total surface area 
         public override double SurfaceArea()
         {
