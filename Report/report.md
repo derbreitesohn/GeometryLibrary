@@ -89,6 +89,9 @@ The main technical challenge was Namespace Management.  Initially, naming a name
 
 Another challenge was ensuring the Sort() method inside CompositeShape correctly triggered the IComparable logic. I learned that by defining the comparison rule in the base class, the built-in List.Sort() method handles the heavy lifting automatically.
 
+## Class Diagram
+![Class diagramm](image.png)
+
 ## Work with:
 I worked independently on this implementation.
 
