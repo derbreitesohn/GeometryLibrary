@@ -4,7 +4,7 @@ namespace GeometryLibrary.Shape
 {
     public class Tetrahedron : Shape
     {
-        private static readonly Random random = new Random();
+        private static  Random random = new Random();
 
         public Tetrahedron() : base(4)
         {
