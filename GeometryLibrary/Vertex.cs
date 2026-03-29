@@ -14,5 +14,9 @@ namespace GeometryLibrary
         {
             return !(left == right);
         }
+        public override string ToString()
+        {
+            return $"(X: {X:F2}, Y: {Y:F2}, Z: {Z:F2})";
+        }
     }
 }

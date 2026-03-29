@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "GeometryLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/GeometryLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeometryLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GeometryLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeometryLibrary/GeometryLibrary.csproj",
+      "msbuildProject": "../GeometryLibrary/GeometryLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "GeometryLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\floma\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\floma\\Documents\\FH-SS-2026\\CRC-CD\\GeometryLibrary\\GeometryLibrary\\GeometryLibrary.csproj": {
+              "projectPath": "C:\\Users\\floma\\Documents\\FH-SS-2026\\CRC-CD\\GeometryLibrary\\GeometryLibrary\\GeometryLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

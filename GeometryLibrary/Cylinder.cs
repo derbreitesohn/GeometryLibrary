@@ -1,5 +1,5 @@
 using System;
-namespace GeometryLibrary.Shape;
+namespace GeometryLibrary;
 
 public class Cylinder : Shape
 {
@@ -25,8 +25,6 @@ public class Cylinder : Shape
             }
         }
 
-    // Methods
-    // Override the == operator 
     // A method named Height() to calculate the height 
     public double Height()
     {

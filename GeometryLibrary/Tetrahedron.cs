@@ -1,6 +1,6 @@
 using System;
-namespace GeometryLibrary.Shape
-{
+namespace GeometryLibrary;
+
     public class Tetrahedron : Shape
     {
         private static  Random random = new Random();
@@ -63,7 +63,6 @@ namespace GeometryLibrary.Shape
             return magnitude / 2;
         }
 
-       
         public static bool operator ==(Tetrahedron left, Tetrahedron right)
         {
             if (ReferenceEquals(left, right)) return true;
@@ -81,4 +80,3 @@ namespace GeometryLibrary.Shape
             return !(left == right);
         }
     }
-}

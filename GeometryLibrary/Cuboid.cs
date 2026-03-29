@@ -1,5 +1,5 @@
 using System;
-namespace GeometryLibrary.Shape;
+namespace GeometryLibrary;
 public class Cuboid : Shape
 {
   private static Random random = new Random();

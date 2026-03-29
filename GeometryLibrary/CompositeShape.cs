@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GeometryLibrary.Shape;
+namespace GeometryLibrary;
 
 public class CompositeShape : Shape
 {
@@ -72,4 +72,9 @@ public class CompositeShape : Shape
         }
         return totalArea;
     }
+
+    public void Sort()
+        {
+            shapes.Sort();
+        }
 }
